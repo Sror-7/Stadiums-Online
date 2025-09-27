@@ -1,0 +1,1270 @@
+[
+  {
+    "ContainingType": "FootballStadiumAPI.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "FootballStadiumAPIDataAccess.DTOs.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "LoginByIdentifierAndPassword"
+  },
+  {
+    "ContainingType": "FootballStadiumAPI.Controllers.AuthController",
+    "Method": "GetProtected",
+    "RelativePath": "api/Auth/protected",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FootballStadiumAPI.Controllers.AuthController",
+    "Method": "SignIn",
+    "RelativePath": "api/Auth/SignIn",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "FootballStadiumAPIDataAccess.DTOs.SignInDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "SignInNewUser"
+  },
+  {
+    "ContainingType": "FootballStadiumAPI.Controllers.BookingsAPIController",
+    "Method": "AddNewConstantBooking",
+    "RelativePath": "api/Bookings/AddConstant",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newBooking",
+        "Type": "FootballStadiumAPIDataAccess.DTO.ConstantBookingCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "EndpointName": "AddNewConstantBooking"
+  },
+  {
+    "ContainingType": "FootballStadiumAPI.Controllers.BookingsAPIController",
+    "Method": "AddNewOneTimeBooking",
+    "RelativePath": "api/Bookings/AddOneTime",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newBooking",
+        "Type": "FootballStadiumAPIDataAccess.DTO.OneTimeBookingCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "EndpointName": "AddNewOneTimeBooking"
+  },
+  {
+    "ContainingType": "FootballStadiumAPI.Controllers.BookingsAPIController",
+    "Method": "GetConstantBookings",
+    "RelativePath": "api/Bookings/ConstantBookings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StadiumID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "WeekDay",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "WeekNumber",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "BookingStatusID",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[FootballStadiumAPIDataAccess.DTO.ConstantBookingDTO, FootballStadiumAPIDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "ConstantBookings"
+  },
+  {
+    "ContainingType": "FootballStadiumAPI.Controllers.BookingsAPIController",
+    "Method": "GetConstantBookingsListByStadiumIDAndWeekDay",
+    "RelativePath": "api/Bookings/ConstantBookingsListByStadiumIDAndWeekDay",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StadiumID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "WeekDay",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Duration",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[FootballStadiumAPIDataAccess.DTO.ConstantBookingDTO, FootballStadiumAPIDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "ConstantBookingsListByStadiumIDAndWeekDay"
+  },
+  {
+    "ContainingType": "FootballStadiumAPI.Controllers.BookingsAPIController",
+    "Method": "GetConstantBookingsListByStadiumIDAndWeekDayAndWeekNumber",
+    "RelativePath": "api/Bookings/ConstantBookingsListByStadiumIDAndWeekDayAndWeekNumber",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StadiumID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "WeekDay",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "WeekNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Duration",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[FootballStadiumAPIDataAccess.DTO.ConstantBookingDTO, FootballStadiumAPIDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "ConstantBookingsListByStadiumIDAndWeekDayAndWeekNumber"
+  },
+  {
+    "ContainingType": "FootballStadiumAPI.Controllers.BookingsAPIController",
+    "Method": "GetOneTimeBookings",
+    "RelativePath": "api/Bookings/OneTimeBookings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StadiumID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Date",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "BookingStatusID",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[FootballStadiumAPIDataAccess.DTO.OneTimeBookingDTO, FootballStadiumAPIDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "OneTimeBookings"
+  },
+  {
+    "ContainingType": "FootballStadiumAPI.Controllers.BookingsAPIController",
+    "Method": "GetOneTimeBookingsListByStadiumIDAndDate",
+    "RelativePath": "api/Bookings/OneTimeBookingsListByStadiumIDAndDate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StadiumID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Date",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Duration",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[FootballStadiumAPIDataAccess.DTO.OneTimeBookingDTO, FootballStadiumAPIDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "OneTimeBookingsListByStadiumIDAndDate"
+  },
+  {
+    "ContainingType": "FootballStadiumAPI.Controllers.BookingsAPIController",
+    "Method": "GetUpcomingBookingsListByUserID",
+    "RelativePath": "api/Bookings/UpcomingBookingsList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "UpcomingBookingsListByUserID"
+  },
+  {
+    "ContainingType": "FootballStadiumAPI.Controllers.BookingsAPIController",
+    "Method": "UpdateBookingStatus",
+    "RelativePath": "api/Bookings/UpdateStatus",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "BookingID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "BookingStatusID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "UpdateBookingStatus"
+  },
+  {
+    "ContainingType": "FootballStadiumAPI.Controllers.BookingsAPIController",
+    "Method": "GetUserConstantBookings",
+    "RelativePath": "api/Bookings/UserConstantBookingsByStatusID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "statusID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetUserConstantBookingsByStatusID"
+  },
+  {
+    "ContainingType": "FootballStadiumAPI.Controllers.BookingsAPIController",
+    "Method": "GetUserOneTimeBookings",
+    "RelativePath": "api/Bookings/UserOneTimeBookingsByStatusID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "statusID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetUserOneTimeBookingsByStatusID"
+  },
+  {
+    "ContainingType": "FootballStadiumAPI.Controllers.NotificationsAPIController",
+    "Method": "GetAllNotifications",
+    "RelativePath": "api/Notification/All",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[FootballStadiumAPIDataAccess.DTOs.Notification, FootballStadiumAPIDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "GetAllNotifications"
+  },
+  {
+    "ContainingType": "FootballStadiumAPI.Controllers.NotificationsAPIController",
+    "Method": "CountUnreadNotifications",
+    "RelativePath": "api/Notification/CountUnread",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "CountUnreadNotifications"
+  },
+  {
+    "ContainingType": "FootballStadiumAPI.Controllers.NotificationsAPIController",
+    "Method": "DeleteNotification",
+    "RelativePath": "api/Notification/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "DeleteNotification"
+  },
+  {
+    "ContainingType": "FootballStadiumAPI.Controllers.NotificationsAPIController",
+    "Method": "MarkAllAsRead",
+    "RelativePath": "api/Notification/MarkAllAsRead",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 401
+      }
+    ],
+    "EndpointName": "MarkAllNotificationsAsRead"
+  },
+  {
+    "ContainingType": "FootballStadiumAPI.Controllers.NotificationsAPIController",
+    "Method": "MarkNotificationAsRead",
+    "RelativePath": "api/Notification/MarkAsRead/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "MarkNotificationAsRead"
+  },
+  {
+    "ContainingType": "FootballStadiumAPI.Controllers.PersonController",
+    "Method": "AddNewPerson",
+    "RelativePath": "api/Person/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ProfilePicture",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Gender",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Phone",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Address",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DateOfBirth",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 201
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "EndpointName": "AddNewPerson"
+  },
+  {
+    "ContainingType": "FootballStadiumAPI.Controllers.PersonController",
+    "Method": "GetPersonInfoByID",
+    "RelativePath": "api/Person/Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PersonID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[FootballStadiumAPIDataAccess.DTOs.PersonDTO, FootballStadiumAPIDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "GetPersonInfoByID"
+  },
+  {
+    "ContainingType": "FootballStadiumAPI.Controllers.PersonController",
+    "Method": "PatchPerson",
+    "RelativePath": "api/Person/Patch/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "patchData",
+        "Type": "Microsoft.AspNetCore.JsonPatch.Operations.Operation[]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "PatchPerson"
+  },
+  {
+    "ContainingType": "FootballStadiumAPI.Controllers.PersonController",
+    "Method": "UpdateImage",
+    "RelativePath": "api/Person/UpdateImage/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "ImageFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "UpdatePersonImage"
+  },
+  {
+    "ContainingType": "FootballStadiumAPI.Controllers.StadiumAPIController",
+    "Method": "AddNewStadium",
+    "RelativePath": "api/Stadium/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newStadium",
+        "Type": "FootballStadiumAPIDataAccess.DTOs.StadiumCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 201
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "EndpointName": "AddNewStadium"
+  },
+  {
+    "ContainingType": "FootballStadiumAPI.Controllers.StadiumAPIController",
+    "Method": "GetAllStadiums",
+    "RelativePath": "api/Stadium/All",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[FootballStadiumAPIDataAccess.DTOs.StadiumDTO, FootballStadiumAPIDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "GetAllStadiums"
+  },
+  {
+    "ContainingType": "FootballStadiumAPI.Controllers.StadiumAPIController",
+    "Method": "GetAllStadiumsWithSettings",
+    "RelativePath": "api/Stadium/AllWithSettings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[FootballStadiumAPIDataAccess.DTOs.StadiumDTO, FootballStadiumAPIDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "GetAllStadiumsWithSettings"
+  },
+  {
+    "ContainingType": "FootballStadiumAPI.Controllers.StadiumAPIController",
+    "Method": "GetStadiumInfoByID",
+    "RelativePath": "api/Stadium/Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StadiumID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[FootballStadiumAPIDataAccess.DTOs.StadiumDTO, FootballStadiumAPIDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "GetStadiumInfoByID"
+  },
+  {
+    "ContainingType": "FootballStadiumAPI.Controllers.StadiumAPIController",
+    "Method": "GetBookingSettingsByStadiumID",
+    "RelativePath": "api/Stadium/GetBookingSettings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[FootballStadiumAPIDataAccess.DTOs.StadiumDTO, FootballStadiumAPIDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "GetBookingSettingsByStadiumID"
+  },
+  {
+    "ContainingType": "FootballStadiumAPI.Controllers.StadiumAPIController",
+    "Method": "GetStadiumInfoByLoggedUser",
+    "RelativePath": "api/Stadium/GetByLoggedUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[FootballStadiumAPIDataAccess.DTOs.StadiumDTO, FootballStadiumAPIDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "GetStadiumInfoByLoggedUser"
+  },
+  {
+    "ContainingType": "FootballStadiumAPI.Controllers.StadiumAPIController",
+    "Method": "GetStadiumInfoByOwnerID",
+    "RelativePath": "api/Stadium/GetByOwnerID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "OwnerID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[FootballStadiumAPIDataAccess.DTOs.StadiumDTO, FootballStadiumAPIDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "GetStadiumInfoByOwnerID"
+  },
+  {
+    "ContainingType": "FootballStadiumAPI.Controllers.StadiumAPIController",
+    "Method": "GetStadiumInfoWithSettingsByID",
+    "RelativePath": "api/Stadium/GetWithSettings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StadiumID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[FootballStadiumAPIDataAccess.DTOs.StadiumInfoWithSettingsDTO, FootballStadiumAPIDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "GetStadiumInfoWithSettingsByID"
+  },
+  {
+    "ContainingType": "FootballStadiumAPI.Controllers.StadiumAPIController",
+    "Method": "PatchStadium",
+    "RelativePath": "api/Stadium/Patch/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "patchData",
+        "Type": "Microsoft.AspNetCore.JsonPatch.Operations.Operation[]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "PatchStadium"
+  },
+  {
+    "ContainingType": "FootballStadiumAPI.Controllers.StadiumAPIController",
+    "Method": "PatchStadiumBookingSettings",
+    "RelativePath": "api/Stadium/PatchBookingSettings/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "patchData",
+        "Type": "Microsoft.AspNetCore.JsonPatch.Operations.Operation[]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "PatchStadiumBookingSettings"
+  },
+  {
+    "ContainingType": "FootballStadiumAPI.Controllers.StadiumAPIController",
+    "Method": "IsStadiumNameAvailable",
+    "RelativePath": "api/Stadium/StadiumNameAvailabilityCheck",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StadiumName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "StadiumID",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 409
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 500
+      }
+    ],
+    "EndpointName": "IsStadiumNameAvailable"
+  },
+  {
+    "ContainingType": "FootballStadiumAPI.Controllers.StadiumAPIController",
+    "Method": "UpdateImage",
+    "RelativePath": "api/Stadium/UpdateImage/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "ImageFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "UpdateStadiumImage"
+  },
+  {
+    "ContainingType": "FootballStadiumAPI.Controllers.UserAPIController",
+    "Method": "AddNewUser",
+    "RelativePath": "api/User/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newUser",
+        "Type": "FootballStadiumAPIDataAccess.DTOs.UserCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 201
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "EndpointName": "AddNewUser"
+  },
+  {
+    "ContainingType": "FootballStadiumAPI.Controllers.UserAPIController",
+    "Method": "ChangeUserPassword",
+    "RelativePath": "api/User/ChangePassword",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "changePassword",
+        "Type": "FootballStadiumAPIDataAccess.DTOs.ChangePasswordDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "EndpointName": "ChangeUserPassword"
+  },
+  {
+    "ContainingType": "FootballStadiumAPI.Controllers.UserAPIController",
+    "Method": "IsEmailAvailable",
+    "RelativePath": "api/User/EmailAvailabilityCheck",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 409
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 500
+      }
+    ],
+    "EndpointName": "IsEmailAvailable"
+  },
+  {
+    "ContainingType": "FootballStadiumAPI.Controllers.UserAPIController",
+    "Method": "GetUserInfoByID",
+    "RelativePath": "api/User/Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[FootballStadiumAPIDataAccess.DTOs.UserDTO, FootballStadiumAPIDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "GetUserInfoByID"
+  },
+  {
+    "ContainingType": "FootballStadiumAPI.Controllers.UserAPIController",
+    "Method": "IsPasswordCorrect",
+    "RelativePath": "api/User/IsPassowrdCorrect",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "EndpointName": "IsUserPasswordCorrect"
+  },
+  {
+    "ContainingType": "FootballStadiumAPI.Controllers.UserAPIController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/User/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "FootballStadiumAPIDataAccess.DTOs.UserUpdateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "UpdateUser"
+  },
+  {
+    "ContainingType": "FootballStadiumAPI.Controllers.UserAPIController",
+    "Method": "IsUsernameAvailable",
+    "RelativePath": "api/User/UsernameAvailabilityCheck",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 409
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 500
+      }
+    ],
+    "EndpointName": "IsUsernameAvailable"
+  }
+]

@@ -1,0 +1,13 @@
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadium (Fullstack)\Backend\Project\FootballStadiumAPI\Helpers\bin\Debug\net8.0\Helpers.deps.json
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadium (Fullstack)\Backend\Project\FootballStadiumAPI\Helpers\bin\Debug\net8.0\Helpers.dll
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadium (Fullstack)\Backend\Project\FootballStadiumAPI\Helpers\bin\Debug\net8.0\Helpers.pdb
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadium (Fullstack)\Backend\Project\FootballStadiumAPI\Helpers\obj\Debug\net8.0\Helpers.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadium (Fullstack)\Backend\Project\FootballStadiumAPI\Helpers\obj\Debug\net8.0\Helpers.AssemblyInfoInputs.cache
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadium (Fullstack)\Backend\Project\FootballStadiumAPI\Helpers\obj\Debug\net8.0\Helpers.AssemblyInfo.cs
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadium (Fullstack)\Backend\Project\FootballStadiumAPI\Helpers\obj\Debug\net8.0\Helpers.csproj.CoreCompileInputs.cache
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadium (Fullstack)\Backend\Project\FootballStadiumAPI\Helpers\obj\Debug\net8.0\Helpers.sourcelink.json
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadium (Fullstack)\Backend\Project\FootballStadiumAPI\Helpers\obj\Debug\net8.0\Helpers.dll
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadium (Fullstack)\Backend\Project\FootballStadiumAPI\Helpers\obj\Debug\net8.0\refint\Helpers.dll
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadium (Fullstack)\Backend\Project\FootballStadiumAPI\Helpers\obj\Debug\net8.0\Helpers.pdb
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadium (Fullstack)\Backend\Project\FootballStadiumAPI\Helpers\obj\Debug\net8.0\ref\Helpers.dll
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadium (Fullstack)\Backend\Project\FootballStadiumAPI\Helpers\obj\Debug\net8.0\Helpers.csproj.AssemblyReference.cache

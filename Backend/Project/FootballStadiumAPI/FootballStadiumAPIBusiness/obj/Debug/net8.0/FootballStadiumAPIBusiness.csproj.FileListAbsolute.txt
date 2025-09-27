@@ -1,0 +1,33 @@
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadiumAPI\FootballStadiumAPIBusiness\bin\Debug\net8.0\FootballStadiumAPIBusiness.deps.json
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadiumAPI\FootballStadiumAPIBusiness\bin\Debug\net8.0\FootballStadiumAPIBusiness.dll
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadiumAPI\FootballStadiumAPIBusiness\bin\Debug\net8.0\FootballStadiumAPIBusiness.pdb
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadiumAPI\FootballStadiumAPIBusiness\bin\Debug\net8.0\FootballStadiumAPIDataAccess.dll
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadiumAPI\FootballStadiumAPIBusiness\bin\Debug\net8.0\FootballStadiumAPIDataAccess.pdb
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadiumAPI\FootballStadiumAPIBusiness\obj\Debug\net8.0\FootballStadiumAPIBusiness.csproj.AssemblyReference.cache
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadiumAPI\FootballStadiumAPIBusiness\obj\Debug\net8.0\FootballStadiumAPIBusiness.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadiumAPI\FootballStadiumAPIBusiness\obj\Debug\net8.0\FootballStadiumAPIBusiness.AssemblyInfoInputs.cache
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadiumAPI\FootballStadiumAPIBusiness\obj\Debug\net8.0\FootballStadiumAPIBusiness.AssemblyInfo.cs
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadiumAPI\FootballStadiumAPIBusiness\obj\Debug\net8.0\FootballStadiumAPIBusiness.csproj.CoreCompileInputs.cache
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadiumAPI\FootballStadiumAPIBusiness\obj\Debug\net8.0\Football.BA164638.Up2Date
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadiumAPI\FootballStadiumAPIBusiness\obj\Debug\net8.0\FootballStadiumAPIBusiness.dll
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadiumAPI\FootballStadiumAPIBusiness\obj\Debug\net8.0\refint\FootballStadiumAPIBusiness.dll
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadiumAPI\FootballStadiumAPIBusiness\obj\Debug\net8.0\FootballStadiumAPIBusiness.pdb
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadiumAPI\FootballStadiumAPIBusiness\obj\Debug\net8.0\ref\FootballStadiumAPIBusiness.dll
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadium (Fullstack)\Backend\Project\FootballStadiumAPI\FootballStadiumAPIBusiness\bin\Debug\net8.0\FootballStadiumAPIBusiness.deps.json
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadium (Fullstack)\Backend\Project\FootballStadiumAPI\FootballStadiumAPIBusiness\bin\Debug\net8.0\FootballStadiumAPIBusiness.dll
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadium (Fullstack)\Backend\Project\FootballStadiumAPI\FootballStadiumAPIBusiness\bin\Debug\net8.0\FootballStadiumAPIBusiness.pdb
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadium (Fullstack)\Backend\Project\FootballStadiumAPI\FootballStadiumAPIBusiness\bin\Debug\net8.0\FootballStadiumAPIDataAccess.dll
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadium (Fullstack)\Backend\Project\FootballStadiumAPI\FootballStadiumAPIBusiness\bin\Debug\net8.0\FootballStadiumAPIDataAccess.pdb
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadium (Fullstack)\Backend\Project\FootballStadiumAPI\FootballStadiumAPIBusiness\obj\Debug\net8.0\FootballStadiumAPIBusiness.csproj.AssemblyReference.cache
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadium (Fullstack)\Backend\Project\FootballStadiumAPI\FootballStadiumAPIBusiness\obj\Debug\net8.0\FootballStadiumAPIBusiness.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadium (Fullstack)\Backend\Project\FootballStadiumAPI\FootballStadiumAPIBusiness\obj\Debug\net8.0\FootballStadiumAPIBusiness.AssemblyInfoInputs.cache
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadium (Fullstack)\Backend\Project\FootballStadiumAPI\FootballStadiumAPIBusiness\obj\Debug\net8.0\FootballStadiumAPIBusiness.AssemblyInfo.cs
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadium (Fullstack)\Backend\Project\FootballStadiumAPI\FootballStadiumAPIBusiness\obj\Debug\net8.0\FootballStadiumAPIBusiness.csproj.CoreCompileInputs.cache
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadium (Fullstack)\Backend\Project\FootballStadiumAPI\FootballStadiumAPIBusiness\obj\Debug\net8.0\Football.BA164638.Up2Date
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadium (Fullstack)\Backend\Project\FootballStadiumAPI\FootballStadiumAPIBusiness\obj\Debug\net8.0\FootballStadiumAPIBusiness.dll
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadium (Fullstack)\Backend\Project\FootballStadiumAPI\FootballStadiumAPIBusiness\obj\Debug\net8.0\refint\FootballStadiumAPIBusiness.dll
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadium (Fullstack)\Backend\Project\FootballStadiumAPI\FootballStadiumAPIBusiness\obj\Debug\net8.0\FootballStadiumAPIBusiness.pdb
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadium (Fullstack)\Backend\Project\FootballStadiumAPI\FootballStadiumAPIBusiness\obj\Debug\net8.0\ref\FootballStadiumAPIBusiness.dll
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadium (Fullstack)\Backend\Project\FootballStadiumAPI\FootballStadiumAPIBusiness\obj\Debug\net8.0\FootballStadiumAPIBusiness.sourcelink.json
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadium (Fullstack)\Backend\Project\FootballStadiumAPI\FootballStadiumAPIBusiness\bin\Debug\net8.0\Helpers.dll
+D:\Programming\Fields\Web Development\SROR\Projects\FootballStadium (Fullstack)\Backend\Project\FootballStadiumAPI\FootballStadiumAPIBusiness\bin\Debug\net8.0\Helpers.pdb
